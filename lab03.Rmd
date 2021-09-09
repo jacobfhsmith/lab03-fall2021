@@ -1,0 +1,60 @@
+---
+title: "Lab 03"
+subtitle: "due September 14th at 11:59 PM "
+author: ""
+date: ""
+editor_options: 
+  chunk_output_type: console
+output:
+  pdf_document: default
+---
+
+```{r load-packages, message = FALSE}
+library(tidyverse)
+```
+
+And then read in the data.
+
+```{r load-data, message = FALSE}
+lego <- read_csv("avengers.csv")
+```
+
+# Exercise 1
+
+```{r ex-1}
+```
+
+# Exercise 2
+
+```{r ex-2}
+```
+
+Report the three newest Avengers and how long they have served.
+
+# Exercise 3
+
+```{r ex-3}
+```
+
+Discuss whether there appears to be a change in the percentage of female Avengers here.
+
+# Exercise 4
+
+```{r ex-4}
+```
+
+Describe what you notice about these Avengers in terms of deaths and returns.
+
+# Exercise 5
+
+```{r ex-5}
+```
+
+Describe what you learn about Marvel movies and about the mean and median here.
+
+# Exercise 6
+
+```{r ex-6}
+```
+
+Discuss your plot here, answering all of the questions in the prompt.
